@@ -1,7 +1,7 @@
-function distanceFromHqInBlocks(someValue) {
+function distanceFromHqInBlocks(d) {
     const hq = 42
-    let distance = someValue - hq
-    if (someValue < hq){
+    let distance = d - hq
+    if (d < hq){
      distance = distance * -1
     }
     return distance;
